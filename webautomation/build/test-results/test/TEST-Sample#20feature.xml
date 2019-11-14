@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sample feature" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-14T12:38:06" hostname="Beytullahs-MBP" time="3.622">
+  <properties/>
+  <testcase name="Sample Scenario: New user onboarding" classname="Sample feature" time="3.622"/>
+  <system-out><![CDATA[    Given user navigates to blog page            # StepDefinitions.userNavigatesToBlogPage()
+    When user clicks "New"                       # StepDefinitions.userClicks(String)
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 38500
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Nov 14, 2019 1:38:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Nov 14, 2019 1:38:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Nov 14, 2019 1:38:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
